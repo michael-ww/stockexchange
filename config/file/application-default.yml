@@ -1,0 +1,3 @@
+logging:
+  level:
+    '[gorgeous.stockexchange]': ${LOGGING_EXCHANGE_LEVEL:DEBUG}
