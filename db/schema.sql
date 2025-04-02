@@ -11,9 +11,7 @@ create table api_key_auth (
     user_id bigint not null,
     primary key (api_key)
 ) character
-set
-    utf8 collate utf8_general_ci AUTO_INCREMENT = 1000;
+set utf8 collate utf8_general_ci AUTO_INCREMENT = 1000;
 
 create table clearing (id bigint not null AUTO_INCREMENT) character
-set
-    utf8 collate utf8_general_ci AUTO_INCREMENT = 1000;
+set utf8 collate utf8_general_ci AUTO_INCREMENT = 1000;
